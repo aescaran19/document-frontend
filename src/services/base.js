@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL: process.env.VUE_APP_API_URL,
+    baseURL: 'https://documentmanager20210807155011.azurewebsites.net/api',
 });
